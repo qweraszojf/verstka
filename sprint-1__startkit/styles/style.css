@@ -14,6 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
 }
 
 .logo {
@@ -30,6 +31,12 @@
   margin:  30px 64px 0px;
 }
 
+.link{
+	color: #2f80ed;
+	text-decoration: none;
+}
+
+
 title {
 	display: flex;
 	flex-direction: column;
@@ -40,35 +47,31 @@ title {
 	margin-left: 64px;
 }
 
-subtitle {
+.subtitle {
   width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
-  margin:  30px 64px 0px;
+  margin-left: 64px;
+  margin-bottom: 30px;
 }
 
-.main-illustration {
+.header__main-illustration {
+	display: block;
 	height: 608px;
 	width: 765px;
 	position: absolute;
 	right: 0;
-	bottom: 0;
 }
 
-.square-pic {
-	height: 568px;
-	width: 568px;
-	position: absolute;
-	right: 0;
-	margin-top: 64px;
-}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
