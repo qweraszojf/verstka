@@ -10,6 +10,11 @@
 }
 
 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -17,18 +22,12 @@
   background-color: #f2f2f2;
 }
 
-.logo {
-  height: 32px;
-  width: 228px;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-}
-
-.logo_place_header {
-  top: 0;
-  left: 0;
-  margin:  30px 64px 0px;
+.header__logo_place_header {
+    height: 32px;
+    width: 228px;
+    position: absolute;
+    top:30px;
+    left: 64px;
 }
 
 .link{
@@ -37,9 +36,7 @@
 }
 
 
-title {
-	display: flex;
-	flex-direction: column;
+.header__title {
 	width: 730px;
 	font-size: 102px;
 	line-height: 96px;
@@ -47,14 +44,14 @@ title {
 	margin-left: 64px;
 }
 
-.subtitle {
+.header__subtitle {
   width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
-  margin-left: 64px;
-  margin-bottom: 30px;
+  left: 64px;
+  bottom: 30px;
 }
 
 .header__main-illustration {
@@ -63,6 +60,7 @@ title {
 	width: 765px;
 	position: absolute;
 	right: 0;
+    bottom: 0;
 }
 
 
@@ -72,6 +70,7 @@ title {
   width: 568px;
   position: absolute;
   right: 0;
+    top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -121,23 +120,46 @@ title {
     font-weight:700;
 }
 .digits {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
 }
 .section-title {
-
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+    width: 60%;
+    margin: 100px 0px 20px;
+    text-align: center;
 }
 .section-subtitle {
-
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    width: 60%;
+    text-align: center;
 }
 .table {
-
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 .table__cell {
-
+    width: 250px;
+    margin-top: 60px;
 }
 .table__heading {
-
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
 }
 .table__text {
-
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px 0px;
 }
