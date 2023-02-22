@@ -163,3 +163,51 @@
     font-weight: normal;
     margin: 20px 0px;
 }
+
+/*Блок feynman*/
+.feynman{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    position: relative;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 890px;
+    background-image: url('../images/feynman.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.feynman__title{
+    width: 648px;
+    margin-top: 100px;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: 600;
+    z-index: 1;
+}
+.feynman__subtitle{
+    margin-top: 70px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    z-index: 1;
+}
+.feynman__link{
+    position: absolute;
+    right: 48px;
+    top: 50%;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight:normal;
+    color: #2f80ed;
+    z-index: 1;
+}
+/* Альтернатива для картинки на фон */
+/*.feynman__img{
+    position: absolute;
+    width: 867px;
+    height: 637px;
+    left: 0;
+    bottom: 0;
+    z-index: auto;
+}*/
