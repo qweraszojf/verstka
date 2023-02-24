@@ -8,14 +8,16 @@
 </head>
 <body>
   <div class="page">
+      <!--Блок header-->
     <header class="header">
-		<section> <img src = "images/logo_place_header.svg"  class = "header__logo_place_header"></section>
+		<section><img src = "images/logo_place_header.svg"  class = "header__logo_place_header"></section>
 		<div class="header__title">Научиться учиться</div>
 		<div class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href=" " class = "link"> Узнать &rarr;</a></div>
-        <div><img src = "images/bl.png" class = "header__square-pic"></div>
+        <div class = "header__square-pic"><!--img src = "images/bl.png" --></div>
         <div><img src = "images/two_again.png" class = "header__main-illustration"></div>
     </header>
     <main class="content">
+        <!--Блок description-->
       <section class="description">
 			<div class = "two-columns">
 				<div class="two-columns__brief">Главные проблемы в обучении</div>
@@ -27,7 +29,8 @@
 			</div>
       </section>
 
-      <section class="digits">
+        <!--Блок digits-->
+        <section class="digits">
           <div class="section-title">Цифры и факты</div>
           <div class="section-subtitle">Про учебу и мозг</div>
           <div class="table">
@@ -68,18 +71,92 @@
           </div>
       </section>
 
+        <!--Блок feynman-->
       <section class="feynman">
           <!-- <div class="feynman__img"><img src="images/feynman.png" alt="Фото Фейнмана"></div> --><!-- Альтернатива для фонового изображения -->
           <div class="feynman__title">Метод Фейнмана</div>
           <div class="feynman__subtitle">Выучить и не забыть.</div>
-          <div class="feynman__link">Подробнее &#8594;</div>
+          <div><a href="#" class="feynman__link">Подробнее &#8594;</a></div>
       </section>
 
+        <!--Блок kaufman-->
       <section class="kaufman">
+          <div class="section-title_theme_dark">Принципы обучения</div>
+          <div class="section-subtitle_theme_dark">от Джоша Кауфмана</div>
+          <div class="table">
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">1</div>
+                <div class="table__text_theme_dark">Выберите привлекательный проект.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">2</div>
+                <div class="table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">3</div>
+                <div class="table__text_theme_dark">Определите целевой уровень мастерства.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">4</div>
+                <div class="table__text_theme_dark">Разбейте навык на элементы.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">5</div>
+                <div class="table__text_theme_dark">Приготовьте всё необходимое для занятий.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">6</div>
+                <div class="table__text_theme_dark">Устраните препятствия для занятий.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">7</div>
+                <div class="table__text_theme_dark">Выделите специальное время для занятий.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">8</div>
+                <div class="table__text_theme_dark">Создайте быстрые петли обратной связи.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">9</div>
+                <div class="table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</div>
+            </div>
+            <div class="table__cell_theme_dark">
+                <div class="table__heading_theme_dark">10</div>
+                <div class="table__text_theme_dark">Уделяйте внимание количеству и скорости.</div>
+            </div>
+          </div>
+          <div><img src="images/kaufman-triangle.svg" class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
-
+        <div class="columns">
+            <div class="columns_content-copyright">
+                <div><img src = "images/logo_place_footer.svg"  class="logo_place-footer"></div>
+                <div class="author">&copy; Палий Алексей</div>
+            </div>
+                <div class="columns_content-info">
+                   <div class="column-link">
+                        <div class="column-heading">О Практикуме</div>
+                        <div class="column-links">Главная</div>
+                        <div class="column-links">Концепция</div>
+                        <div class="column-links">Наставники</div>
+                   </div>
+                </div>
+                <div class="columns_content-social">
+                    <div class="column-heading">Соцсети</div>
+                    <div >
+                        <div class="column-links">
+                            <div class="column-link"><img src = "images/youtube-icon.svg" class="social-icon">YouTube</div>
+                        </div>
+                        <div class="column-links">
+                            <div class="column-link"><img src = "images/vk_color_white.svg" class="social-icon">VK</div>
+                        </div>
+                        <div class="column-links">
+                            <div class="column-link"><img src = "images/tiktok-icon.svg" class="social-icon">TikTok</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </footer>
   </div>
 </body>
