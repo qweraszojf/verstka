@@ -285,16 +285,16 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+
 }
 .column-links{
-    display: flex;
-    flex-direction: row;
     margin-top: 20px;
     margin-bottom: 16px;
 }
 .social-icon{
     height: 16px;
     width: 16px;
+    margin-right: 10px;
 }
 .columns_content-copyright{
     display: flex;
@@ -308,12 +308,8 @@
 .columns_content-info{
     display: flex;
     flex-direction: column;
-    /*margin-top: 20px;
-    margin-bottom: 16px;*/
 }
 .columns_content-social{
     display: flex;
     flex-direction: column;
-    /*margin-top: 20px;
-    margin-bottom: 16px;*/
 }
