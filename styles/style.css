@@ -19,7 +19,6 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    /* выше установили ограничения для секции */
     background-color: #f2f2f2;
 }
 .header__logo_place_header {
@@ -96,7 +95,6 @@
     width: 80%;
     line-height: 34px;
     font-size: 24px;
-    /*font-weight: normal;*/
 }
 .two-columns__paragraph {
     line-height: 34px;
@@ -140,7 +138,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*margin-bottom: 100px;*/
 }
 .table__cell {
     width: 250px;
